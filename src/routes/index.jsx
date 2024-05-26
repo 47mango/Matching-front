@@ -4,6 +4,7 @@ import { lazy } from 'react';
 
 import auth from '@/routes/auth';
 import profile from '@/routes/profile';
+import status from '@/routes/status';
 
 import MainLayout from '@/layouts/main/main-layout';
 import GuestLayout from '@/layouts/guest/guest-layout';
@@ -45,6 +46,8 @@ const Router = () => {
     auth,
     // 프로필&포트폴리오
     profile,
+    // 현황
+    status,
 
     // 404
     {
