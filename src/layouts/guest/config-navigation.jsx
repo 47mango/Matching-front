@@ -7,8 +7,4 @@ export const configNavigation = [
     title: '프로젝트',
     path: '/project',
   },
-  {
-    title: '현황',
-    path: '/status',
-  },
 ];
